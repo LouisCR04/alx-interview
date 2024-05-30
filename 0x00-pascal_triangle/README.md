@@ -4,3 +4,4 @@ sum of two numbers just above the number. it is widely used in
 probability theory, combinatorics, and algebra.
 
 This python script attempts to create the triangle given the height.
+0x00-pascal_triangle
