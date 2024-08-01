@@ -26,3 +26,4 @@ def island_perimeter(grid):
         for col in range(cols):
             if grid[row][col]:
                 return dfs(row, col)
+    return 0
