@@ -17,7 +17,8 @@ def island_perimeter(grid):
             return 0
 
         visited.add((m, n))
-        perimeter = dfs(m + 1, n) + dfs(m - 1, n) + dfs(m, n + 1) + dfs(m, n - 1)
+        perimeter = dfs(m + 1, n) + dfs(m - 1, n) + dfs(m, n + 1) \
+            + dfs(m, n - 1)
 
         return perimeter
 
